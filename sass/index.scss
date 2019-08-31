@@ -1,0 +1,49 @@
+@import 'reset';
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+input,
+select,
+textarea {
+  font-family: Microsoft YaHei;
+}
+
+::placeholder {
+  color: #ccc;
+}
+
+
+
+a {
+
+  &:active,
+  &:link,
+  &:hover,
+  &:visited {
+    color: #666666;
+    text-decoration: none;
+  }
+}
+
+
+.clearfix {
+  zoom: 1;
+
+  &:after {
+    content: ' ';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+  }
+}
+
+h1 {
+  padding: 20px;
+  font-size: 48px;
+  text-align: center;
+}
